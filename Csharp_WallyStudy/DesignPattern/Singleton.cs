@@ -1,5 +1,14 @@
 ﻿namespace Csharp_WallyStudy.DesignPattern;
 
+// Singleton Pattern
+// 하나의 클래스에 오직 하나의 인스턴스만 가지는 패턴
+// 하나의 인스턴스를 만들어 놓고 해당 인스턴스를 다른 모듈들이 공유하며 사용하기 때문에
+// 인스턴스를 생성할 때 드는 비용이 줄어드는 장점이 있다.
+// 하지만, 의존성이 높아진다는 단점도 있다.
+
+// 데이터 베이스 연결할 때 많이 사용하는 패턴이다.
+// 
+
 public class BasicSingleton
 {
 #nullable disable

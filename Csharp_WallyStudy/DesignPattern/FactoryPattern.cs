@@ -14,8 +14,6 @@ public class ConcreteParoductA : IProduct
     {
         return "Product A";
     }
-
-    //public string GetProductName() => "Product A";
 }
 
 public class ConcreteProductB : IProduct
@@ -24,8 +22,6 @@ public class ConcreteProductB : IProduct
     {
         return "Product B";
     }
-
-    //public string GetProductName() => "Product B";
 }
 
 public class ProductFactory
