@@ -207,9 +207,9 @@ public class MyArray<T> where T : IComparable<T>
     }
 }
 
-public class MyArrayTest
+public class MyArrayDemo
 {
-    public void Test()
+    public void Run()
     {
         MyArray<int> myArray = new MyArray<int>();
         myArray.Add(7);

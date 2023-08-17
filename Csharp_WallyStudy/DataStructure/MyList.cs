@@ -120,9 +120,9 @@ public class MyList<T> where T : IComparable<T>
     }
 }
 
-public class MyListTest
+public class MyListDemo
 {
-    public void Test()
+    public void Run()
     {
         MyList<int> list = new MyList<int>();
         list.Add(1);

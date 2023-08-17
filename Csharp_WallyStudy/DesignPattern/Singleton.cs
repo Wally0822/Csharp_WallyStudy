@@ -63,9 +63,9 @@ public sealed class LazySingleton
     }
 }
 
-public static class SingletonTest
+public class SingletonDemo
 {
-    public static void Test()
+    public static void Run()
     {
         // Basic Singleton Test
         var basicSingleton1 = BasicSingleton.Instance;

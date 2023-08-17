@@ -8,17 +8,19 @@ public class Program
     public static void Main(string[] args)
     {
         #region DataStrucrure Test
-        //MyArrayTest myArrayTest = new MyArrayTest();
-        //myArrayTest.Test();
+        //MyArrayDemo myArrayTest = new MyArrayDemo();
+        //MyArrayDemo.Run();
 
-        //MyListTest myListTest = new MyListTest();
-        //myListTest.Test();
+        //myListDemo myListTest = new myListDemo();
+        //myListDemo.Run();
         #endregion
 
         #region DisgnPattern Test
-        //SingletonTest.Test();
+        //SingletonTest.Run();
 
-        StrategyPattern.OrderTest();
+        FactoryPatternDemo.Run();
+
+        //StrategyPattern.OrderRun();
         #endregion
     }
 }

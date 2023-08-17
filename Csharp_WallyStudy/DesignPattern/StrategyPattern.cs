@@ -48,9 +48,9 @@ public class Order
     }
 }
 
-public static class StrategyPattern
+public class StrategyPattern
 {
-    public static void OrderTest()
+    public static void OrderRun()
     {
         var order1 = new Order(100, new NodiscountStrategy());
         Console.WriteLine($"Final price with no discount: {order1.GetFinalPrice()}");
