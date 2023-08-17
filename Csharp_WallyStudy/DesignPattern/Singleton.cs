@@ -7,7 +7,7 @@
 // 하지만, 의존성이 높아진다는 단점도 있다.
 
 // 데이터 베이스 연결할 때 많이 사용하는 패턴이다.
-// 
+// 싱글턴 패턴은 TDD(Test Driven Development) 할때 독립적인 테스트를 할 수 없다.
 
 public class BasicSingleton
 {
