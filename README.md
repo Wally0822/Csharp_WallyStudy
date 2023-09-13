@@ -5,6 +5,7 @@
 # 자료 구조
 - Array(배열)
 - List(리스트)
+- Queue(큐)
 
 # 디자인 패턴
 - Abstract Factory Pattern (추상 팩토리 패턴)
