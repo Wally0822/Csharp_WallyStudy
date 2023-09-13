@@ -1,6 +1,6 @@
-##<img src="https://img.shields.io/badge/csharp-239120?style=for-the-badge&logo=CSharp&logoColor=white">
+<img src="https://img.shields.io/badge/csharp-239120?style=for-the-badge&logo=CSharp&logoColor=white">
 
-## 자료 구조 및 디자인 패턴을 공부 하면서 C#으로 구현해보았습니다.
+[ 자료 구조 및 디자인 패턴을 공부 하면서 C#으로 구현해보았습니다.]
 
 # 자료 구조
 - Array(배욜)
