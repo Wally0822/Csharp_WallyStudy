@@ -13,6 +13,9 @@ public class Program
 
         //myListDemo myListTest = new myListDemo();
         //myListDemo.Run();
+
+        MyQueueDemo myQueueTest = new MyQueueDemo();
+        myQueueTest.Run();
         #endregion
 
 
@@ -21,7 +24,7 @@ public class Program
         // 해결 할 수 있도록 하나의 '규약'형태로 만들어 놓은 것입니다
         #region DisgnPattern Run
         //SingletonTest.Run();
-        InjectableSinleton.Run();
+        //InjectableSingleton.Run();
 
         //FactoryPatternDemo.Run();
 

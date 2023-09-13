@@ -54,7 +54,7 @@ public class Servise
     }
 }
 
-public class InjectableSinleton
+public class InjectableSingleton
 {
     public static void Run()
     {

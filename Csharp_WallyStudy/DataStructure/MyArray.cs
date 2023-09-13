@@ -205,6 +205,50 @@ public class MyArray<T> where T : IComparable<T>
             destination[destinationIndex + i] = source[sourceIndex + i];
         }
     }
+
+    public void RemoveAt(int index)
+    {
+        if (index < 0 || index >= _count)
+        {
+            throw new ArgumentOutOfRangeException(nameof(index));
+        }
+
+        // 특별한 경우: 첫 번째 노드를 제거
+        if (index == 0)
+        {
+            _head = _head.Next;
+        }
+        else
+        {
+            Node current = _head;
+
+            // 인덱스 - 1 위치에 있는 노드로 이동합니다.
+            for (int i = 0; i < index - 1; ++i)
+            {
+                current = current.Next;
+            }
+
+            // current의 다음 노드를 현재 노드의 다음 다음 노드로 설정하여
+            // 현재 노드의 다음 노드(제거할 노드)를 건너뛰게 합니다.
+            current.Next = current.Next?.Next;
+        }
+
+        _count--;
+    }
+
+    public bool Contains(T item)
+    {
+        Node current = _head;
+        while (current != null)
+        {
+            if (current.Value.Equals(item))
+            {
+                return true;
+            }
+            current = current.Next;
+        }
+        return false;
+    }
 }
 
 public class MyArrayDemo
